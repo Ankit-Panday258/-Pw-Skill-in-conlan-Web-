@@ -1,0 +1,487 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@900&family=Mulish:wght@200&family=Noto+Sans+Lepcha&family=Poppins:ital,wght@0,400;1,500&family=Raleway:wght@200&family=Roboto+Mono:ital,wght@1,600&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&family=Varela+Round&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+    margin: 0 20px ;
+}
+/* fount fa-chevron-right */
+.fa-chevron-right{
+    color: #746c6c;
+    scale: .8;
+}
+
+.logo-search-bar{
+    width: 100%;
+    height: 12vh;
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-search-bar > .logo{
+    width: 150px;
+    height: 50px;
+}
+
+.logo-search-bar > .search {
+    width: 60%;
+    height: 50px;
+    border: 1px solid rgb(221, 218, 218);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.logo-search-bar > .search > .fa-magnifying-glass {
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color:#746c6c ;
+}
+.logo-search-bar > .search > input{
+    width: 92%;
+    height: 50px;
+    font-size: 20px;
+    border-color: transparent;
+    outline: none;
+   
+}
+.logo-search-bar > .studio{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid orangered;
+    background-color: aqua;
+
+} 
+
+/* coures-pwSkillLab-JobPortal-Exprienceportal-Becomeanaffiliate-Halloffame */
+.coures-pwSkillLab-JobPortal-Exprienceportal-Becomeanaffiliate-Halloffame{
+    width: 100%;
+    height: 6vh;
+    
+}
+.coures-pwSkillLab-JobPortal-Exprienceportal-Becomeanaffiliate-Halloffame > ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5px;
+    
+}
+.coures-pwSkillLab-JobPortal-Exprienceportal-Becomeanaffiliate-Halloffame > ul > li{
+   padding: 15px;
+   margin: 0 10px ;
+   list-style: none;
+   font-size: 16px;
+   font-family: 'Ubuntu';
+   
+}
+.coures-pwSkillLab-JobPortal-Exprienceportal-Becomeanaffiliate-Halloffame > ul > li >  a {
+    text-align: center;
+    color: #746c6c;
+    
+}
+ .fa-chevron-down {
+    padding-left: 13px ;
+    color: #746c6c;
+}
+/* course hover  */
+.courses-hover{
+    width: 300px;
+    height: 250px;
+    background-color:white;
+    box-shadow: 3px 3px 3px -3px  black  ;
+    position: absolute;
+    top: 110px; 
+}
+.courses-hover {
+    display: none;
+}
+
+.courses-hover > ul > li {
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    padding: 20px;
+}
+.courses-hover > ul > li > a{
+    color: #746c6c;
+    
+}
+ .coures-pwSkillLab-JobPortal-Exprienceportal-Becomeanaffiliate-Halloffame > ul >li:hover .courses-hover{
+    display: block; 
+ }
+.courses{
+    width: 100px;
+    height: 10px;
+    background-color: #F8F8F9;
+    border-radius: 10px;
+  
+}
+ /* software-Engineering coures C Programming Web Development Data Structure &  Algorithms */
+ .software-Engineering{
+    width: 260px;
+    height: 256px;
+    background-color:white;
+    box-shadow: 3px 3px 3px -3px  black  ;
+    position: absolute;
+    left: 300px; 
+    top: -5px;
+ }
+ .software-Engineering >ul >li {
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    padding: 12px;
+ }
+ .software-Engineering >ul >li > a {
+    color: #746c6c;
+ }
+ .software-Engineering{
+    display: none;
+ }
+ .courses-software-Engineering > .fa-chevron-right{
+    padding-left: 50px;
+    
+ }
+ .courses-software-Engineering:hover .software-Engineering{
+    display: block;
+      
+ }
+ .courses-software-Engineering:hover{
+    background-color: #fbf6f6;
+ }
+
+
+
+ /* software-Engineering-Java-Development-Java Spring */
+ .Java-With-System-Design-DSA-Java-Spring{
+    width: 260px;
+    height: 256px;
+    background-color:white;
+    box-shadow: 3px 3px 3px -3px  black  ;
+    position: absolute;
+    left: 260px; 
+    top: -1px;
+ }
+ .Java-With-System-Design-DSA-Java-Spring  > li {
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    padding: 12px;
+ }
+ .Java-With-System-Design-DSA-Java-Spring  > li > a{
+    color: #746c6c;
+ }
+ .Java-With-System-Design-DSA-Java-Spring{
+    display: none;
+ }
+ .Java-Development-Java-With-System-Design-DSA-Java-Spring:hover .Java-With-System-Design-DSA-Java-Spring{
+    display: block;
+ }
+ .Java-Development-Java-With-System-Design-DSA-Java-Spring:hover{
+    background-color: #fbf6f6;
+ }
+
+ .Java-Development-Java-With-System-Design-DSA-Java-Spring > .fa-chevron-right{
+  padding-left: 90px;
+ }
+ /* C Programming */
+.C-Foundations{
+    width: 260px;
+    height: 256px;
+    background-color:white;
+    box-shadow: 3px 3px 3px -3px  black  ;
+    position: absolute;
+    left: 260px; 
+    top: -0px;
+    
+}
+.C-Foundations > li {
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    padding: 12px;
+}
+.C-Foundations > li >a{
+    color: #746c6c;
+}
+.C-Foundations{
+    display: none;
+}
+.C-Programming-C-Foundations:hover .C-Foundations{
+    display: block;
+}
+.C-Programming-C-Foundations:hover{
+    background-color: #fbf6f6;
+
+}
+.C-Programming-C-Foundations > .fa-chevron-right{
+    padding-left: 109px;
+ }
+/* Web-Development-Full-Stack-Web-Dev-Web-Fundamentals */
+.Full-Stack-Web-Dev-Web-Fundamentals{
+    width: 260px;
+    height: 256px;
+    background-color:white;
+    box-shadow: 3px 3px 3px -3px  black  ;
+    position: absolute;
+    left: 260px; 
+    top: -0px;
+    
+}
+.Full-Stack-Web-Dev-Web-Fundamentals > li {
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    padding: 12px;
+}
+.Full-Stack-Web-Dev-Web-Fundamentals > li >a{
+    color: #746c6c;
+}
+.Full-Stack-Web-Dev-Web-Fundamentals{
+    display: none;
+}
+.Web-Development-Full-Stack-Web-Dev-Web-Fundamentals:hover .Full-Stack-Web-Dev-Web-Fundamentals{
+    display: block;
+}
+.Web-Development-Full-Stack-Web-Dev-Web-Fundamentals:hover{
+    background-color: #fbf6f6;
+
+}
+.Web-Development-Full-Stack-Web-Dev-Web-Fundamentals > .fa-chevron-right{
+    padding-left: 85px;
+   }
+/*Data-Structure-Algorithms-DSA-Fundamentals-DSA-C++-DSA-with-Java */
+.DSA-Fundamentals-DSA-C-DSA-with-Java{
+    width: 260px;
+    height: 256px;
+    background-color:white;
+    box-shadow: 3px 3px 3px -3px  black  ;
+    position: absolute;
+    left: 260px; 
+    top: -0px;
+    
+}
+.DSA-Fundamentals-DSA-C-DSA-with-Java > li {
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    padding: 12px;
+}
+.DSA-Fundamentals-DSA-C-DSA-with-Java > li >a{
+    color: #746c6c;
+}
+.DSA-Fundamentals-DSA-C-DSA-with-Java{
+    display: none;
+}
+.Data-Structure-Algorithms-DSA-Fundamentals-DSA-C-DSA-with-Java:hover .DSA-Fundamentals-DSA-C-DSA-with-Java{
+    display: block;
+}
+.Data-Structure-Algorithms-DSA-Fundamentals-DSA-C-DSA-with-Java:hover{
+    background-color: #fbf6f6;
+
+}
+.Data-Structure-Algorithms-DSA-Fundamentals-DSA-C-DSA-with-Java > .fa-chevron-right{
+    padding-left: 10px;
+}
+
+/*Artifical-intelligence-Data-Science-Python-Programming-Business-Analyticsata-AnalyticsFull-Stack-Data-Analytics */
+.Data-Science-Python-Programming-Business-Analyticsata-AnalyticsFull-Stack-Data-Analytics{
+    width: 260px;
+    height: 256px;
+    background-color:white;
+    box-shadow: 3px 3px 3px -3px  black  ;
+    position: absolute;
+    left: 300px; 
+    top: -5px;
+    display: none;
+}
+.Data-Science-Python-Programming-Business-Analyticsata-AnalyticsFull-Stack-Data-Analytics  > li  {
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    padding: 12px;
+} 
+.Data-Science-Python-Programming-Business-Analyticsata-AnalyticsFull-Stack-Data-Analytics  > li > a{
+    color: #746c6c;
+}
+.Artifical-intelligence-Data-Science-Python-Programming-Business-Analyticsata-AnalyticsFull-Stack-Data-Analytics:hover .Data-Science-Python-Programming-Business-Analyticsata-AnalyticsFull-Stack-Data-Analytics {
+    display: block;
+}
+.Artifical-intelligence-Data-Science-Python-Programming-Business-Analyticsata-AnalyticsFull-Stack-Data-Analytics:hover{
+    background-color: #fbf6f6;
+
+}
+.Artifical-intelligence-Data-Science-Python-Programming-Business-Analyticsata-AnalyticsFull-Stack-Data-Analytics > .fa-chevron-right {
+    padding-left: 62px;
+}
+.Data-Science-Data-Science-Master-Full-Stack-Data-Science-Statistis-Al-Fundamentals{
+    width: 260px;
+    height: 256px;
+    background-color:white;
+    box-shadow: 3px 3px 3px -3px  black  ;
+    position: absolute;
+    left: 260px; 
+    top: -1px;
+    display: none;
+}
+.Data-Science-Data-Science-Master-Full-Stack-Data-Science-Statistis-Al-Fundamentals > li {
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    padding: 12px;
+}
+.Data-Science-Data-Science-Master-Full-Stack-Data-Science-Statistis-Al-Fundamentals> li > a {
+    color: #746c6c;
+}
+.Data-Science-Python-Programming-Business-Analyticsata-AnalyticsFull-Stack-Data-Analytics:hover .Data-Science-Data-Science-Master-Full-Stack-Data-Science-Statistis-Al-Fundamentals{
+    display: block;
+}
+
+/* Python-Programming-Pytho-Foundation  */
+.Pytho-Foundation {
+    width: 260px;
+    height: 256px;
+    background-color:white;
+    box-shadow: 3px 3px 3px -3px  black  ;
+    position: absolute;
+    left: 260px; 
+    top: -0px;
+    display: none;
+}
+.Pytho-Foundation > li {
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    padding: 12px;
+}
+.Pytho-Foundation > li > a {
+    color: #746c6c;
+}
+.Python-Programming-Pytho-Foundation:hover .Pytho-Foundation {
+    display: block;
+    
+}
+.Python-Programming-Pytho-Foundation:hover{
+    background-color: #fbf6f6;
+
+}
+/* Business-Analytics-Analytics-Foundations */
+.Analytics-Foundations {
+    width: 260px;
+    height: 256px;
+    background-color:white;
+    box-shadow: 3px 3px 3px -3px  black  ;
+    position: absolute;
+    left: 260px; 
+    top: -0px;
+    display: none;
+}
+.Analytics-Foundations > li {
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    padding: 12px;
+}
+.Analytics-Foundations > li > a {
+    color: #746c6c;
+}
+.Business-Analytics-Analytics-Foundations:hover .Analytics-Foundations {
+    display: block;
+}
+.Business-Analytics-Analytics-Foundations:hover{
+    background-color: #fbf6f6;
+
+}
+/* Data-Analytics-Full-Stack-Data-Analytics" */
+.Full-Stack-Data-Analytics {
+    width: 260px;
+    height: 256px;
+    background-color:white;
+    box-shadow: 3px 3px 3px -3px  black  ;
+    position: absolute;
+    left: 260px; 
+    top: -0px;
+    display: none;
+}
+.Full-Stack-Data-Analytics > li {
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+    padding: 12px;
+}
+.Full-Stack-Data-Analytics > li > a {
+    color: #746c6c;
+}
+.Data-Analytics-Full-Stack-Data-Analytics:hover .Full-Stack-Data-Analytics {
+    display: block;
+}
+.Data-Analytics-Full-Stack-Data-Analytics:hover{
+    background-color: #fbf6f6;
+
+}
+.Data-Analytics-Full-Stack-Data-Analytics:hover{
+    background-color: #fbf6f6;
+
+}
+/* Pre Placement */
+.Placement-Training-Placement-crash-Course {
+width: 260px;
+height: 256px;
+background-color:white;
+box-shadow: 3px 3px 3px -3px  black  ;
+position: absolute;
+left: 300px; 
+top: -5px;
+display: none;
+}
+.Placement-Training-Placement-crash-Course > li {
+list-style: none;
+ font-size: 16px;
+ font-family: 'Ubuntu';
+ padding: 12px;
+
+}
+.Placement-Training-Placement-crash-Course > li > a {
+    color: #746c6c;
+}
+.Pre-Placement-Placement-Training-Placement-crash-Course:hover .Placement-Training-Placement-crash-Course {
+    display: block;
+}
+.Pre-Placement-Placement-Training-Placement-crash-Course:hover{
+    background-color: #fbf6f6;
+
+}
+.Placement-crash-Course {
+    width: 260px;
+    height: 256px;
+    background-color:white;
+    box-shadow: 3px 3px 3px -3px  black  ;
+    position: absolute;
+    left: 260px; 
+    top: -0px;
+    display: none;
+}
+.Placement-crash-Course > li {
+ list-style: none;
+ font-size: 16px;
+ font-family: 'Ubuntu';
+ padding: 12px;
+
+
+}
+.Placement-crash-Course > li > a {
+    color: #746c6c;
+}
+.Placement-Training-Placement-crash-Course:hover .Placement-crash-Course{
+    display: block;
+}
+
+.Pre-Placement-Placement-Training-Placement-crash-Course > .fa-chevron-right{
+    padding-left: 107px;
+}
+
