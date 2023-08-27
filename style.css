@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 .logo-search-bar > .logo{
     width: 150px;
@@ -69,7 +70,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 0 5px;
-    
+   
 }
 .coures-pwSkillLab-JobPortal-Exprienceportal-Becomeanaffiliate-Halloffame > ul > li{
    padding: 15px;
@@ -93,7 +94,6 @@ body {
     width: 300px;
     height: 250px;
     background-color:white;
-    box-shadow: 3px 3px 3px -3px  black  ;
     position: absolute;
     top: 105px; 
 }
@@ -492,7 +492,8 @@ list-style: none;
 .text-and-image{
     width: 100%;
     height: 90vh;
- 
+    box-shadow: 0px 4px 0px rgb(245, 243, 243) inset  ;
+    margin-top: 30px;
     
 }
 .Upscaling-text-button{
@@ -536,3 +537,40 @@ list-style: none;
     scale: .6;
     
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Average-Salary-Hike-Different-Courses-Career-Transitions-Hiring-Partners */
+.Average-Salary-Hike-Different-Courses-Career-Transitions-Hiring-Partners{
+    width: 100%;
+    height: 30vh;
+   
+}
+.Average-Salary-Hike-Different-Courses-Career-Transitions-Hiring-Partners > ul {
+display: flex;
+justify-content: space-between;
+}
+.Average-Salary-Hike-Different-Courses-Career-Transitions-Hiring-Partners > ul > li {
+    width: 260px ;
+    height: 80px;
+    border-radius: 10px;
+    border-color: transparent;
+    box-shadow: 4px 4px 4px gainsboro , -1px -2px  gainsboro ;
+    list-style-type: none;
+}
+.Average-Salary-Hike-Different-Courses-Career-Transitions-Hiring-Partners > ul> li{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.Average-Salary-Hike-Different-Courses-Career-Transitions-Hiring-Partners  p {
+  padding-left: 25px;
+  font-size: 17px;
+  font-family:sans-serif;
+}
+.Average-Salary-Hike-Different-Courses-Career-Transitions-Hiring-Partners img {
+    padding-left: 13px;
+    
+}
+  
